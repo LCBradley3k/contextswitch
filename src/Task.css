@@ -1,0 +1,23 @@
+.Task {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    margin:0;
+    padding: 0;
+    color: #2e3133;
+}
+
+.Task:hover {
+    background-color:aquamarine;
+    color: #fff;
+}
+
+.Task__Name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-family: "Helvetica";
+    font-size: 64px;
+    margin: 0;
+}
