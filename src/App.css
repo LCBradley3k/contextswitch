@@ -8,6 +8,31 @@ body, html, #root {
   height: 100%;
 }
 
+.App__Header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App__Header h1 {
+  color: #2e3133;
+}
+
+.App__Header h1 span {
+  background-color: #2e3133;
+  color: #fff;
+  padding: 0px 12px 2px 12px;
+}
+
+.App__Header h2 {
+  color: #838a8f;
+  font-family: monospace;
+  font-weight: normal;
+  font-size: 12px;
+}
+
 .App__TaskContainer {
   height: 100%;
   width: 100%;
