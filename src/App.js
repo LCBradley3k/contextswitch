@@ -1,7 +1,9 @@
 import Task from "./Task.js"
+import soundfile from "./assets/work-lunch.mp3";
 import './App.css';
 
 function App() {
+
   return (
     <div className="App">
       <div className="App__Header">
@@ -11,6 +13,10 @@ function App() {
       <div className="App__TaskContainer">
         <Task name="work"/>
         <Task name="lunch"/>
+      </div>
+      <div className="App__AudioPlayer">
+        <audio src={soundfile} controls>
+        </audio>
       </div>
     </div>
   );

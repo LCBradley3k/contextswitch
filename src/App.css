@@ -37,3 +37,14 @@ body, html, #root {
   height: 100%;
   width: 100%;
 }
+
+.App__AudioPlayer {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 150%);
+}
+
+.App__AudioPlayer audio {
+  display: block;
+}
