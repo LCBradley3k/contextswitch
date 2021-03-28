@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import "./Task.css"
-import soundfile from "./assets/work-lunch.mp3";
 
 class Task extends Component {
     render() {

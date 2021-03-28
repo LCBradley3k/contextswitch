@@ -33,11 +33,6 @@ body, html, #root {
   font-size: 12px;
 }
 
-.App__TaskContainer {
-  height: 100%;
-  width: 100%;
-}
-
 .App__AudioPlayer {
   position: fixed;
   top: 50%;
